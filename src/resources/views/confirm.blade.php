@@ -22,11 +22,11 @@
               <th class="confirm-table__header">お名前</th>
               <td class="confirm-table__text--name">
                 
-              <input class="name-input" type="text" name="lastname" value="{{ $contact['lastname'] }}" readonly/>
+              
               <div class="input-name">
                 <input class="name-input" type="text" name="firstname" value="{{ $contact['firstname'] }}" readonly/>
               </div>
-                
+                <input class="name-input" type="text" name="lastname" value="{{ $contact['lastname'] }}" readonly/>
                 
                 
               </td>
