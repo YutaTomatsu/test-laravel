@@ -1,6 +1,6 @@
 # アプリケーション名
 顧客データ管理アプリ
-![]()
+![トップページ](https://github.com/YutaTomatsu/test-laravel/blob/master/%E3%83%88%E3%83%83%E3%83%95%E3%82%9A%E3%83%98%E3%82%9A%E3%83%BC%E3%82%B7%E3%82%99.png?raw=true)
 
 ＃＃　作成した目的 
 顧客のデータを保存し、管理できるアプリを作るため
