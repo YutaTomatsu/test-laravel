@@ -103,7 +103,7 @@
   <td>{{ $contacts->email }}</td>
   <td class="content-preview">{{ $contacts->content }}</td>
   <td>
-    <form id="delete-form-{{$contacts->id}}" class="delete-form" data-id="{{ $contacts->id }}" action="{{ route('contact.destroy', $contacts->id) }}" method="POST" onsubmit="return confirm('{{ __('Are you sure you want to delete this content?') }}')">
+    <form id="delete-form-{{$contacts->id}}" class="delete-form" data-id="{{ $contacts->id }}" action="{{ route('contact.destroy', $contacts->id) }}" method="POST" >
       @csrf
       @method('DELETE')
       <button type="submit" class="delete-button">{{ __('削除') }}</button>
