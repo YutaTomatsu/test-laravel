@@ -1,0 +1,320 @@
+.max-wize {
+ 
+}
+
+.manage__search {
+    display: flex;
+    justify-content: center;
+}
+
+.manage__search--left {
+    display: flex;
+    flex-direction: column;
+}
+
+.manage__search--column {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    width: 1000px;
+    height: 300px;
+    padding: 30px;
+}
+
+.manage__title {
+    text-align: center;
+    
+}
+
+.manage__search--line1{
+    display: flex;
+    flex-direction: row;
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+}
+
+.name__weight {
+    font-weight: bold;
+}
+
+.name__text {
+
+width: 250px;
+border: 1px solid #ddd;
+border-radius: 3px;
+margin: 5px 50px 5px 100px;
+
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+}
+
+.name__gender {
+    font-weight: bold;
+    padding: 0 0 0px 0;
+}
+
+.radio__all {
+    margin: 7px 0 0 40px;
+}
+
+
+input[type="radio"] {
+  
+  
+  
+  width: 1px;
+  position: absolute;
+  display: none;
+}
+input[type="radio"] + span {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+  padding: 10px 30px 8px 50px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 14px;
+}
+input[type="radio"] + span::before,
+input[type="radio"] + span::after {
+  position: absolute;
+  content: "";
+  
+  border-radius: 50%;
+  top: 0;
+  bottom: 0;
+  margin: auto  10px auto 0;
+  box-sizing: border-box;
+}
+input[type="radio"] + span::before {
+  width: 30px;
+  height: 30px;
+  background: #fff;
+  border: 2px solid #999999;
+  left: 9px;
+}
+input[type="radio"] + span::after {
+  width: 10px;
+  height: 10px;
+  background: #999999;
+  left: 19px;
+  opacity: 0;
+}
+input[type="radio"]:checked + span::before {
+  border: 2px solid black;
+}
+input[type="radio"]:checked + span::after {
+  background: black;
+  opacity: 1;
+}
+
+
+
+
+
+
+
+.date__text1 {
+width: 250px;
+border: 1px solid #ddd;
+border-radius: 3px;
+margin: 5px 0 5px 100px;
+
+}
+
+.date__text2 {
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+.manage__search--line2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.email__text {
+        width: 250px;
+        border: 1px solid #ddd;
+        border-radius: 3px;
+        margin:5px 0 5px 38px;
+        
+        
+}
+
+.manage__search--line3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.button1 {
+    display: inline-block;
+    text-align: center;
+}
+
+.button2 {
+    display: inline-block;
+    text-align: center;
+}
+
+.form__button-submit1 {
+   width: 150px;
+   height: 50px;
+   color: white;
+   background-color: black;
+   font-weight: bold;
+   border-radius: 10px;
+   display: inline-block;
+
+}
+
+.form__button-submit2 {
+background-color: white;
+    border: none;
+    text-decoration: underline;
+    
+}
+
+
+
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    display: flex;
+    margin: 0 0 100px 0 ;
+}
+
+table th {
+    text-align: center;
+    border-bottom: 1px solid black;
+    box-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3) inset;
+    width: 20%;
+    padding: 0px 0;
+}
+
+table td {
+    text-align: center;
+    border-bottom: 1px solid #a8b7c5;
+    border-top: none;
+    width: 20%;
+    padding: 0px 0;
+}
+
+table td:last-child {
+    border-right: 0px solid #a8b7c5;
+}
+
+table tr:last-child td:first-child {
+    border-radius: 0 0 0 0px;
+}
+
+table tr:last-child td:last-child {
+    border-radius: 0 0 0px 0;
+}
+
+
+
+
+.delete-button {
+
+    color: white;
+    background-color: black;
+    width: 50px;
+    border-radius: 5px;
+}
+
+.table__tr {
+    
+}
+
+
+
+.btn__design {}
+
+.content-preview {
+white-space: nowrap;
+    /* 1行に収める */
+    overflow: hidden;
+    /* 横幅を超えた部分を非表示にする */
+    text-overflow: ellipsis;
+    /* 超過分を"..."と表示する */
+    max-width: 400px;
+    /* 最大幅を指定（任意の値に変更可能） */
+}
+
+.content-full {
+    white-space: normal;
+    /* 折り返し表示する */
+    overflow: visible;
+    /* 横幅を超えても全て表示する */
+    max-width: none;
+    /* 最大幅を解除 */
+}
+
+
+
+.paginate {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.pagination {
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0 10px;
+    height: 25px;
+  
+    
+}
+
+.pagination a {
+    color: black;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+   
+
+}
+
+.active {
+    color: white !important;
+    background-color: black;
+    text-align: center;
+}
+
+.pagination li {
+    margin: 0 0px;
+    color: black;
+    width: 30px;
+    border: 1px solid #999999;
+
+}
+
+
+.disabled {
+    
+}
+
+.content-preview {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.content-preview:hover {
+    white-space: normal;
+    overflow: visible;
+}

@@ -1,0 +1,26 @@
+.block {
+    display: flex;
+    justify-content: center;
+    margin: 300px auto;
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    margin: 40px 0 0 80px;
+    font-weight: bold;
+    font-size: 13px;
+}
